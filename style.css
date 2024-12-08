@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.homeContainer {
+    background: url("/resources/Banner\ Image.png"), rgb(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: white;
+}
+
+.homeSub {
+    font-size: 27px;
+}
+
+.homeTitle {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* discount seciton start  */
+.disocuntContent {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.discountTitle {
+    font-size: 60px;
+    color: red;
+}
+
+.disocuntContent p {
+    font-size: 18px;
+    color: red;
+}
+
+.disocuntContent h4 {
+    font-size: 24px;
+    padding-top: 8px;
+    font-size: 26px;
+}
+
+.disocuntContent img {
+    width: 500px;
+    padding-top: 30px;
+}
+
+/* welcome section start  */
+
+.welcomeContent {
+    background: url("resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 100px;
+    row-gap: 10px;
+    margin-bottom: 100px;
+
+}
+
+.welcomeContent h2 {
+    font-size: 45px;
+}
+
+.welcomeContent button {
+    width: 100px;
+    padding: 10px 20px;
+    outline: none;
+}
+.welcomeContent input {
+    width: 300px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+/* up comming part start  */
+.comeingContent {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.comeingOne {
+    width: 30%;
+}
+
+.comeingThree {
+    width: 30%;
+}
+
+.comeingTwo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comeingOne h5 {
+    color: red;
+    font-size: 16px;
+}
+
+.comeingOne h2 {
+    font-size: 34px;
+    padding: 7px 0;
+}
+
+.comeingOne p {
+    font-size: 16px;
+}
+
+.comeingTwo img {
+    width: 250px;
+    border: 7px solid red;
+    border-radius: 50%;
+    padding: 19px;
+}
+
+.comeingThree h3 {
+    color: red;
+    font-size: 34px;
+    padding: 7px 0;
+}
+
+.comeingThree p {
+    padding-right: 100px;
+}
+
+.comeingThree img {
+    width: 90px;
+}
+
+/* holiday section start */
+.holydayContent {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.holydayContent h1 {
+    font-size: 56px;
+    padding-bottom: 10px;
+
+}
+
+.holydayContent span {
+    color: red;
+}
+
+holydayContent .oneImg {
+    background-image: url("resources/Banner\ Image.png");
+    width: 50px;
+    height: 500px;
+}
+
+.imageContent {
+    margin: 100px auto;
+}
+
+.imageThree {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.imageThree img {
+    width: 410px;
+}
